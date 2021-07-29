@@ -1,6 +1,6 @@
 {% set theme_name = "hacker" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 0e5a4e75e677cbdd2c36ea12a01a0dda425052195802a3438e1e461f241c4818
+  sha256: 816bf9f992ded0b1e1e69d8dece2574e8480efb5e9f84a2e1ac83bd717b8f78a
 
 build:
   noarch: generic
